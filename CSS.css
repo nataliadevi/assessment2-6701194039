@@ -1,0 +1,47 @@
+
+form {
+
+}
+body {
+    background : #9fb6c9;
+    color : #d17979;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #80ebed;
+    color:#09191a;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+}
+
+.regist {
+    color: white;
+    padding: 14px 20px;
+    background-color: #bf3528;
+}
+
+.container {
+    padding: 10px;
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .regist {
+        width: 100%;
+    }
+}
